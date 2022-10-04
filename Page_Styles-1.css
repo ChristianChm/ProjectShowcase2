@@ -1,0 +1,48 @@
+html{
+    background: linear-gradient(red,white 150%);
+    background-repeat: no-repeat;
+    border: solid black;
+}
+
+nav{
+    border: solid;
+    text-align: center;
+}
+
+header > h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+nav > a{
+    font-size: x-large;
+    border-style: solid;
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+nav > a:hover{
+    font-size: xx-large;
+    border-style: solid;
+    text-decoration: underline;
+    color: black;
+    background: linear-gradient(white, red)
+}
+
+.intro{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    border-style: dashed;
+    box-sizing: 1%;
+    
+}
